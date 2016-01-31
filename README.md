@@ -1,6 +1,6 @@
-# you have 10 possible sequences of cards (ace can be 11 and 15)
-# you have 13 cards in a colour
-
+you have 10 possible sequences of cards (ace can be 11 and 15)
+you have 13 cards in a colour
+```
 import math
 def combinations(n,k):
     all_posibilities = float(math.factorial(n) / (math.factorial(k) * math.factorial(n - k)))
@@ -45,4 +45,5 @@ def poker_probabilities():
     print(royal_flush_probability)
 
 poker_probabilities()
+```
 
