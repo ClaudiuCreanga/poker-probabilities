@@ -1,6 +1,6 @@
 you have 10 possible sequences of cards (ace can be 11 and 15)
 
-you have 13 cards in a colour
+you have 13 cards for a colour
 ```
 import math
 def combinations(n,k):
